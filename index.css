@@ -1,0 +1,236 @@
+/* img:hover{
+    transform: translateY(-3.2em);
+    cursor: pointer;
+    border: 2px rgb(138, 9, 170) solid;
+}
+
+img{
+    z-index: -1;
+    position: absolute;
+    width:300px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    height: 597px;
+    width: 1067px;
+    background: none;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-image: url("Images/Tbilisi-XIX.jpg");
+    background-size: cover;
+    animation: transition 0.75s;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.note {
+    position: absolute;
+    margin-top: 30px;
+    font-family: 'IBM Plex Serif', serif;
+    margin-left: 10px;
+}
+
+span {
+    color: blue;
+}
+
+
+header {
+    border: 2px solid rgb(0, 0, 0);
+    background-image: url("Images/xelnaweri.jpg");
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+ul {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+li {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    display: inline;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'IBM Plex Serif', serif;
+    background-color: antiquewhite;
+    transition: 0.1s 0.1s;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(70, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+button {
+    border-radius: 50;
+    border-style: solid;
+}
+
+h1 {
+    position: absolute;
+    font-size: 4em;
+    top: 10%;
+    left: 42%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#corners {
+    margin-left: 20%;
+    margin-top: 7%;
+    width: 1066.5px;
+    height: 597px;
+    transition: transform .2s;
+    animation: transition2 1s;
+}
+
+#corners:hover {
+    cursor: pointer;
+    transform: translateY(-2em);
+
+}
+
+.Georgia {
+    position: absolute;
+    display: block;
+    /* margin-left: 350px;
+    margin-top: 120px; */
+    margin-left: 20%;
+    margin-top: 7%;
+    width: 1066.5px;
+    height: 597px;
+}
+
+.Abkhazia1 {
+    position: absolute;
+    display: block;
+    transition: transform .2s;
+    clip-path: polygon(11% 9%, 18% 15%, 22% 17%, 32% 23%, 31% 27%, 28% 31%, 29% 35%, 29% 38%, 29% 43%, 24% 50%, 22% 52%, 21% 41%, 17% 37%, 13% 28%, 9% 27%, 4% 22%, 3% 17%, 1% 14%, 2% 8%, 5% 6%, 7% 9%);
+}
+
+.Samegrelo-ZemoSvaneti {
+    position: absolute;
+    display: block;
+    clip-path: polygon(33% 21%, 36% 21%, 38% 23%, 43% 26%, 45% 30%, 46% 32%, 44% 36%, 41% 35%, 39% 36%, 37% 35%, 35% 36%, 38% 41%, 37% 47%, 34% 57%, 33% 62%, 24% 63%, 22% 50%, 27% 43%, 27% 28%, 29% 28%, 31% 22%);
+}
+
+.Racha-Lechkhumi {
+    position: absolute;
+    display: block;
+    clip-path: polygon(34% 36%, 36% 33%, 37% 32%, 39% 34%, 44% 34%, 45% 32%, 52% 36%, 55% 41%, 54% 43%, 53% 45%, 52% 48%, 51% 52%, 48% 51%, 45% 54%, 42% 53%, 41% 50%, 39% 50%, 37% 46%, 36% 44%, 36% 41%, 34% 39%);
+}
+
+.Ajara {
+    position: absolute;
+    display: block;
+    clip-path: polygon(25% 69%, 28% 69%, 29% 71%, 30% 71%, 32% 72%, 33% 72%, 34% 71%, 36% 73%, 36% 77%, 37% 79%, 37% 84%, 36% 86%, 34% 86%, 31% 85%, 29% 85%, 27% 84%, 26% 86%, 21% 82%, 22% 78%, 23% 76%, 24% 73%);
+}
+
+.Imereti {
+    position: absolute;
+    display: block;
+    clip-path: polygon(32% 60%, 36% 46%, 39% 48%, 41% 48%, 44% 52%, 47% 50%, 51% 50%, 52% 53%, 52% 57%, 52% 59%, 52% 61%, 50% 65%, 49% 69%, 46% 73%, 43% 73%, 41% 73%, 39% 74%, 37% 72%, 38% 69%, 35% 68%, 33% 65%);
+}
+
+.Samtskhe-Javakheti {
+    position: absolute;
+    display: block;
+    clip-path: polygon(39% 72%, 41% 71%, 44% 72%, 49% 68%, 51% 69%, 52% 72%, 54% 74%, 56% 76%, 54% 78%, 53% 83%, 55% 83%, 56% 88%, 57% 98%, 50% 99%, 48% 96%, 46% 96%, 40% 85%, 39% 81%, 36% 82%, 35% 76%, 36% 72%);
+}
+
+.Kvemo-Kartli {
+    position: absolute;
+    display: block;
+    clip-path: polygon(52% 80%, 52% 78%, 53% 75%, 62% 75%, 65% 75%, 67% 79%, 69% 79%, 71% 77%, 76% 85%, 72% 93%, 70% 94%, 66% 96%, 62% 96%, 58% 97%, 55% 96%, 55% 90%, 55% 86%, 54% 84%, 51% 83%, 52% 84%, 51% 83%);
+}
+
+.Mtskheta-Mtianeti {
+    position: absolute;
+    display: block;
+    clip-path: polygon(62% 51%, 60% 45%, 61% 39%, 70% 40%, 72% 41%, 75% 43%, 76% 47%, 75% 52%, 75% 56%, 73% 59%, 73% 67%, 74% 70%, 71% 74%, 67% 75%, 66% 79%, 64% 77%, 63% 74%, 64% 70%, 63% 64%, 65% 60%, 64% 54%);
+}
+
+.Kakheti {
+    position: absolute;
+    display: block;
+    clip-path: polygon(73% 82%, 74% 78%, 72% 77%, 71% 60%, 74% 55%, 74% 50%, 76% 47%, 81% 48%, 84% 50%, 82% 54%, 82% 57%, 81% 60%, 93% 69%, 89% 77%, 92% 84%, 97% 91%, 95% 100%, 90% 99%, 81% 93%, 78% 88%, 74% 86%);
+}
+
+.Guria {
+    position: absolute;
+    display: block;
+    clip-path: polygon(30% 73%, 27% 70%, 25% 69%, 24% 65%, 24% 63%, 24% 61%, 28% 59%, 34% 64%, 35% 66%, 37% 67%, 38% 69%, 38% 72%, 36% 74%, 34% 73%, 32% 74%);
+}
+
+.Tbilisi {
+    position: absolute;
+    display: block;
+    clip-path: polygon(66% 81%, 65% 79%, 66% 77%, 66% 75%, 67% 73%, 69% 73%, 70% 74%, 72% 76%, 71% 81%, 68% 81%);
+}
+
+.Shida-Kartli {
+    position: absolute;
+    display: block;
+    clip-path: polygon(50% 71%, 48% 67%, 50% 61%, 52% 59%, 55% 61%, 57% 59%, 58% 58%, 62% 65%, 64% 65%, 66% 70%, 65% 72%, 63% 77%, 61% 77%, 59% 76%, 55% 76%);
+}
+
+.Shida-Kartli-Okupirebuli {
+    position: absolute;
+    display: block;
+    clip-path: polygon(54% 62%, 52% 62%, 51% 55%, 51% 47%, 52% 43%, 56% 45%, 60% 43%, 63% 49%, 65% 52%, 66% 56%, 66% 64%, 62% 67%, 60% 63%, 57% 60%, 54% 64%);
+}
+
+@keyframes transition {
+    from {
+        opacity: 0;
+        transform: rotateX(-10);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@keyframes transition2 {
+    from {
+        opacity: 1;
+        transform: translateY(-2em);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
